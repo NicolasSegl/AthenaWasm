@@ -1,0 +1,1 @@
+emcc Athena.cpp Bitboard.cpp Board.cpp ChessGame.cpp Eval.cpp main.cpp MoveGeneration.cpp Outcomes.cpp UCI.cpp utils.cpp ZobristKey.cpp -o js.js -s -sEXPORTED_FUNCTIONS=_processUCICommand -s EXPORTED_RUNTIME_METHODS='["cwrap"]' -sALLOW_MEMORY_GROWTH
