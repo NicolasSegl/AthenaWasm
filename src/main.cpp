@@ -8,11 +8,19 @@
 
 // I LOVE YOU CHARLOTTE <3 I LOVE YOU MORE!!!!
 
+extern "C"
+{
+	void processUCICommand(const char* command)
+	{
+		UCI::processCommand(command);
+	}
+}
+
 int main(int argc, char** argv)
 {
 	std::srand(time(NULL));
 
-	UCI::run();
+	//UCI::run();
 	return 0;
 }
 
